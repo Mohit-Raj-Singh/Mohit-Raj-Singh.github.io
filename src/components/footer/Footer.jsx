@@ -25,6 +25,7 @@ const Footer = () => {
       </div>
 
 
+
     </footer>
   )
 }
