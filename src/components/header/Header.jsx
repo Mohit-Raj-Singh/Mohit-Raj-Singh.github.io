@@ -3,22 +3,11 @@ import "./header.css";
 import CTA from "./CTA";
 import Me from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
-import About from "../about/About";
-// import "./about.css";
-import MeAbout from "../../assets/me-about.png";
+
 
 const Header = () => {
   return (
 
-    // <header>
-    //   <div className="container header__container">
-    //     <h3>Hello i'm </h3>
-    //     <h1>Mohit Raj Singh</h1>
-    //     <h4 className="text__light">Full Stack Web Developer</h4>
-    //     {/* <CTA /> */}
-    //     <About />
-    //   </div>
-    // </header>
 
 
     <header>
