@@ -23,7 +23,10 @@
 }
 
 .portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0 0.5rem;
+}
+.portfolio__item h4{
+    margin: 1rem 0 0.5rem;
 }
 
 .portfolio__item-cta{
