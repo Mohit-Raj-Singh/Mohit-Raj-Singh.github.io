@@ -37,6 +37,8 @@
 .experience__details-icon {
   color: var(--color-primary);
   margin-top: 6px;
+  width: 55px;
+  height: 40px;
 }
 
 /*=============== MEDIA QUERIES ===============*/
@@ -65,7 +67,7 @@
   }
 
   .experience__container>div {
-    width: 100%;
+    width: auto;
     padding: 2rem 1rem;
   }
 }

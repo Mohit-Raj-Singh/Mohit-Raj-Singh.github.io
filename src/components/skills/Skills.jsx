@@ -1,6 +1,10 @@
 import React from "react";
 import "./skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { DiJsBadge, DiCss3 } from "react-icons/di";
+import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
+import { FaReact } from "react-icons/fa";
+import { SiChakraui, SiRedux } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -17,43 +21,43 @@ const Experience = () => {
           <h3>Tech Skills</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <AiFillHtml5 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiJsBadge className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <FaReact className="experience__details-icon" />
               <div>
                 <h4>React.js</h4>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiChakraui className="experience__details-icon" />
               <div>
                 <h4>Chakra-UI</h4>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiRedux className="experience__details-icon" />
               <div>
                 <h4>React-Redux</h4>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <AiFillGithub className="experience__details-icon" />
               <div>
                 <h4>GitHub</h4>
               </div>

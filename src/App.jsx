@@ -6,6 +6,7 @@ import Experience from "./components/skills/Skills";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Github from "./components/githubCalender/GitHubCalender";
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
       <About />
       <Experience />
       <Portfolio />
+      <Github />
       <Contact />
       <Footer />
     </>
