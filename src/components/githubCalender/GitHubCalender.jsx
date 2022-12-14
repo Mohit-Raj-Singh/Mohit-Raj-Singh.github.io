@@ -22,6 +22,8 @@ const Github = () => {
         });
     };
 
+
+    
     return (
         <Box id='github' paddingTop={{ base: "70px", sm: "70px", md: "100px", lg: "100px" }}>
             {/* heading section */}
