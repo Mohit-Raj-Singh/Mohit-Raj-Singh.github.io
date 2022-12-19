@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.699dcfd8.css",
+    "main.css": "/static/css/main.10405012.css",
     "main.js": "/static/js/main.c752f5f9.js",
     "static/media/portfolio1.png": "/static/media/portfolio1.3558be71efc61c4fd6f7.png",
     "static/media/portfolio4.png": "/static/media/portfolio4.72fecc69b885074eca18.png",
@@ -9,11 +9,11 @@
     "static/media/portfolio3.png": "/static/media/portfolio3.31b0c323e0c97a0e3972.png",
     "static/media/Mohit-Raj-Singh-Resume.pdf": "/static/media/Mohit-Raj-Singh-Resume.b77c1b1adf3ca54cd974.pdf",
     "index.html": "/index.html",
-    "main.699dcfd8.css.map": "/static/css/main.699dcfd8.css.map",
+    "main.10405012.css.map": "/static/css/main.10405012.css.map",
     "main.c752f5f9.js.map": "/static/js/main.c752f5f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.699dcfd8.css",
+    "static/css/main.10405012.css",
     "static/js/main.c752f5f9.js"
   ]
 }
