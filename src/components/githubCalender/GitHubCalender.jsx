@@ -33,7 +33,7 @@ const Github = () => {
                     <GitHubCalendar
                         username="Mohit-Raj-Singh"
                         transformData={selectLastHalfYear}
-                        color="1f1f38"
+                        color="4f4c4c"
                         width="100vw"
                     />
                 </div>

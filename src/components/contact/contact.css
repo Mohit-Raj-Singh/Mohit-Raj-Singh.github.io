@@ -23,7 +23,7 @@
 
 .contact__option:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: #f0f7a9;
 }
 
 .contact__option-icon{
@@ -48,7 +48,7 @@ input,textarea{
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid #4f4c4c;
     resize: none;
     color: var(--color-white);
 }

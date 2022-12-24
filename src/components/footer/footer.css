@@ -9,6 +9,14 @@ footer {
 footer a {
     color: var(--color-bg);
 }
+.logoGit{
+    width: 75px;
+    height: 25px;
+}
+.logoLink{
+    width: 80px;
+    height: 30px;
+}
 
 
 .footer__logo {

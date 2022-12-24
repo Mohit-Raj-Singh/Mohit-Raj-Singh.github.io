@@ -18,7 +18,7 @@ const Header = () => {
         <h4 className="text__light">Full Stack Web Developer</h4>
 
         <CTA />
-        <HeaderSocials />
+        {/* <HeaderSocials /> */}
 
 
         <div className="me">

@@ -4,9 +4,9 @@
 /*========== VARIABLE CSS ==========*/
 :root {
     /*========== Colors ==========*/
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg: #000000;
+    --color-bg-variant: #4f4c4c;
+    --color-primary: #f0f7a9;
     --color-primary-variant: rgba(77, 181, 255, 0.6);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
