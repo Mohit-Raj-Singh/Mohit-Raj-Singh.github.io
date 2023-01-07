@@ -1,8 +1,7 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebookF, FaGithub} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
-import {IoLogoTwitter} from 'react-icons/io'
 import { BsLinkedin } from 'react-icons/bs'
 import Logo from "../../assets/logo.png";
 
