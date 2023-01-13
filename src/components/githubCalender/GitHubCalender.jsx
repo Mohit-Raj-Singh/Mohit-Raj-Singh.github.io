@@ -15,9 +15,9 @@ const Github = () => {
             const monthOfDay = date.getMonth();
 
             return (
-                date.getFullYear() === currentYear ||
-                monthOfDay > currentMonth - shownMonths ||
-                monthOfDay <= currentMonth
+                date.getFullYear() === 
+                currentYear ||
+                monthOfDay <= currentMonth ||  monthOfDay > currentMonth - shownMonths
             );
         });
     };
@@ -32,7 +32,7 @@ const Github = () => {
                     <GitHubCalendar
                         username="Mohit-Raj-Singh"
                         transformData={selectLastHalfYear}
-                        // year={new Date().getFullYear()}
+                        year={new Date().getFullYear()}
                         color="4f4c4c"
                         width="100vw"
                     />
