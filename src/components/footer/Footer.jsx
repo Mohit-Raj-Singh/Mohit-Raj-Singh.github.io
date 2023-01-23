@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {FaGithub} from 'react-icons/fa'
-import {FiInstagram} from 'react-icons/fi'
+import { SiHackerrank } from "react-icons/si";
 import { BsLinkedin } from 'react-icons/bs'
 import Logo from "../../assets/logo.png";
 
@@ -22,6 +22,7 @@ const Footer = () => {
       <a href="https://www.linkedin.com/in/mohit-raj-singh-m6164/"><BsLinkedin/></a>
       {/* <a href="https://www.instagram.com/iam_mohitrajs/"><FiInstagram/></a> */}
        <a href="https://github.com/Mohit-Raj-Singh"><FaGithub/></a>
+       <a href="https://www.hackerrank.com/mohit94e"><SiHackerrank /></a>
        
        
       </div>
