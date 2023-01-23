@@ -15,9 +15,9 @@ const Github = () => {
             const monthOfDay = date.getMonth();
 
             return (
-                date.getFullYear() === 
-                currentYear &&
-                monthOfDay <= currentMonth &&  monthOfDay < currentMonth - shownMonths
+                date.getFullYear() === currentYear ||
+                monthOfDay > currentMonth - shownMonths ||
+                monthOfDay <= currentMonth
             );
         });
     };
@@ -31,10 +31,11 @@ const Github = () => {
                 <div className='calendar'>
                     <GitHubCalendar
                         username="Mohit-Raj-Singh"
-                        // transformData={selectLastHalfYear}
-                        year={new Date().getFullYear()}
+                        transformData={selectLastHalfYear}
+                        // year={new Date().getFullYear()}
                         color="4f4c4c"
-                        width="100vw"
+                        // color="black"
+                        width="100%"
                     />
                 </div>
                 <div className='contribution'>
@@ -48,8 +49,6 @@ const Github = () => {
                     <img src="https://github-readme-stats.vercel.app/api?username=Mohit-Raj-Singh&count_private=true&theme=gruvbox&border_radius=15&color=fb982f" alt="stats" />
                 </div>
             </div>
-
-
 
 
         </section>

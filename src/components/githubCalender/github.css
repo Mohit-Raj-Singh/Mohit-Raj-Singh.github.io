@@ -4,7 +4,7 @@ h2{
 }
 .calendar{
     border: 3px solid white;
-    width: 45%;
+    width: 55%;
     height: 300px;
     display: flex;
     align-items: center;
@@ -12,11 +12,14 @@ h2{
     margin: auto;
     border-radius: 20px;
     margin-bottom: 30px;
-    background-color: #000000;
+    /* background-color: #000000; */
+    /* background: var(--color-bg-variant); */
 }
+
+
 .language{
     /* border: 3px solid #4db5ff; */
-    width: 45%;
+    width: 55%;
     height: auto;
     display: flex;
     align-items: center;
@@ -27,7 +30,7 @@ h2{
 }
 .contribution{
     /* border: 3px solid #4db5ff; */
-    width: 50%;
+    width: 55%;
     height: auto;
     display: flex;
     align-items: center;
@@ -38,7 +41,7 @@ h2{
 }
 .stats{
     /* border: 3px solid #4db5ff; */
-    width: 45%;
+    width: 55%;
     height: auto;
     display: flex;
     align-items: center;
