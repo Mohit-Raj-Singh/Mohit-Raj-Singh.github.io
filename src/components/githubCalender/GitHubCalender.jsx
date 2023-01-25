@@ -28,7 +28,7 @@ const Github = () => {
         <section id='github'>
             <h2>GitHub</h2>
             <div className='container container_github'>
-                <div className='calendar'>
+                <div className='container calendar'>
                     <GitHubCalendar
                         username="Mohit-Raj-Singh"
                         transformData={selectLastHalfYear}
@@ -38,14 +38,14 @@ const Github = () => {
                         width="100%"
                     />
                 </div>
-                <div className='contribution'>
+                <div className='container contribution'>
                     <img src="https://streak-stats.demolab.com/?user=Mohit-Raj-Singh&theme=gruvbox&border_radius=15&date_format=M%20j%5B%2C%20Y%5D&color=4db5ff" alt="contribution" />
                     {/* <img src="https://github-readme-streak-stats.herokuapp.com?user=Mohit-Raj-Singh" alt="contribution" /> */}
                 </div>
-                <div className='language'>
+                <div className='container language'>
                     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohit-Raj-Singh&layout=compact&theme=gruvbox&border_radius=15&color=fb982f" alt="language" />
                 </div>
-                <div className='stats'>
+                <div className='container stats'>
                     <img src="https://github-readme-stats.vercel.app/api?username=Mohit-Raj-Singh&count_private=true&theme=gruvbox&border_radius=15&color=fb982f" alt="stats" />
                 </div>
             </div>
