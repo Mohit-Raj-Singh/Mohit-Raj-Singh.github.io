@@ -7,51 +7,112 @@ import { useClipboard, useToast } from '@chakra-ui/react';
 
 const Contact = () => {
 
+  "isRequired"
+
+  const toast = useToast()
+
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [msg, setMsg] = useState("")
+
+  const form = useRef();
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    
+    console.log("clicked")
+
+    if(name && email && msg )
+    {
+      emailjs.sendForm(
+      "service_8ghe5bk",
+      "template_lvymka9",  //template id
+      form.current,
+      "nnd_Lvg7ZwnBahm8L"   //user id- api
+    )
+    // .then(
+    //   (result) => {
+    //     alert("Message sent successfully");
+    //     console.log(result.text);
+    //   })
+      // .catch(error) => {
+      //   alert("Failed to send the msg");
+      //   console.log(error.text);
+      // }  
+    }
+
+    {
+      name && email && msg ?
+        toast({
+          title: 'Message Delievered',
+          description: "Thankyou for Contacting..",
+          status: 'success',
+          duration: 9000,
+          isClosable: true,
+        })
 
 
-  const { hasCopied, onCopy } = useClipboard('mohit94e@gmail.com');
-    const toast = useToast()
+        :
+        toast({
+          title: 'Please Fill the details',
+          description: "",
+          status: 'error',
+          duration: 9000,
+          isClosable: true,
+        })
+    }
+    setName("")
+    setEmail("")
+    setMsg("")
+  }
 
-    const [name,setName] = useState("");
-    const [email,setEmail] = useState("");
-    const [message,setMessage] = useState("");
 
-    const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
+  // const { hasCopied, onCopy } = useClipboard('mohit94e@gmail.com');
+  //   const toast = useToast()
+
+  //   const [name,setName] = useState("");
+  //   const [email,setEmail] = useState("");
+  //   const [message,setMessage] = useState("");
+
+  //   const form = useRef();
+
+  //   const sendEmail = (e) => {
+  //     e.preventDefault();
+
+  //     alert("CLicked")
   
-      emailjs.sendForm('service_cttwct8', 'template_fbhj1bi', form.current, 'WWNKds33SpcnjkE0Y')
-        .then((result) => {
-            console.log(result.text);
-            console.log("message sent")
-            toast({
-              title: 'E-mail',
-              description: "E-mail sent successfully..",
-              status: 'success',
-              position: "top-right",
-              duration: 4000,
-              isClosable: true,
+  //     // emailjs.sendForm('service_8ghe5bk', 'template_lvymka9', form.current, 'WWNKds33SpcnjkE0Y')
+  //     emailjs.sendForm('service_8ghe5bk', 'template_lvymka9', "#myform")
+  //       .then((result) => {
+  //           console.log(result.text);
+  //           console.log("message sent")
+  //           toast({
+  //             title: 'E-mail',
+  //             description: "E-mail sent successfully..",
+  //             status: 'success',
+  //             position: "top-right",
+  //             duration: 4000,
+  //             isClosable: true,
              
-            })
-            setName("")
-            setEmail("")
-            setMessage("")
+  //           })
+  //           setName("")
+  //           setEmail("")
+  //           setMessage("")
             
 
-        }, (error) => {
-            console.log(error.text);
-            toast({
+  //       }, (error) => {
+  //           console.log(error.text);
+  //           toast({
 
-              title: `Please enter correct detail`,
-              status: error,
-              position: "top-right",
-              duration:4000,
-              isClosable: true,
-            })
-        });
+  //             title: `Please enter correct detail`,
+  //             status: error,
+  //             position: "top-right",
+  //             duration:4000,
+  //             isClosable: true,
+  //           })
+  //       });
         
-    };
+  //   };
 
 
 
@@ -77,11 +138,13 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="" ref={form} onSubmit={sendEmail}>
-          <input type="text" value={name} onChange={(e)=> setName(e.target.value)} name='name' placeholder='Your Full Name' required />
-          <input type="email" value={email} onChange={(e)=> setEmail(e.target.value)} name='email' placeholder='Your Email' required />
-          <textarea name="message" value={message} onChange={(e)=> setMessage(e.target.value)} rows="7" placeholder='Your message' required></textarea>
-          <button type='submit' value="Send Message" className='btn btn-primary'>Send Message</button>
+        {/* <form action="" ref={form} onSubmit={sendEmail}> */}
+        <form action="" onSubmit={handleSubmit} ref={form}>
+          <input type="text" value={name} name='user_name' onChange={(e) => setName(e.target.value)} placeholder='Your Full Name' required />
+          <input type="email" value={email} name='user_email' onChange={(e) => setEmail(e.target.value)} placeholder='Your Email' required />
+          {/* <textarea value={message} name='message' onChange={() => setMsg(true)}rows="7" placeholder='Your message' required></textarea> */}
+          <textarea value={msg} name='message' onChange={(e) => setMsg(e.target.value)}rows="7" placeholder='Your message' required></textarea>
+          <button type='submit' value="Send Message" className='btn btn-primary' >Send Message</button>
         </form>
       </div>
     </section>
