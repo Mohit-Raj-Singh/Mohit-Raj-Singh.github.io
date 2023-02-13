@@ -13,9 +13,6 @@ const Experience = () => {
       <h2>My Skills</h2>
 
 
-
-
-
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Tech Skills</h3>

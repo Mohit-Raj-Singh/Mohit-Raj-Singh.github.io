@@ -22,7 +22,8 @@
     /*========== Screen Size ==========*/
     --container-width-lg: 75%;
     --container-width-md: 100%;
-    --container-width-sm: 90%;
+    --container-width-sm: 100%;
+    /* --container-width-sm: 90%; */
 
     /*========== Transition ==========*/
     --transition: all 400ms ease;
