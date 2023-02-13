@@ -7,12 +7,15 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Github from "./components/githubCalender/GitHubCalender";
+import Navbar from "./components/nav/Nav";
 
 export const App = () => {
   return (
     <>
       <Header />
-      <Nav />
+      {/* <Nav /> */}
+      {/* <Nav /> */}
+      <Navbar />
       <About />
       <Experience />
       <Portfolio />

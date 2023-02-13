@@ -34,6 +34,9 @@
   gap: 1rem;
 }
 
+.softSkills{
+  margin-top: 30px;
+}
 .experience__details-icon {
   color: var(--color-primary);
   margin-top: 6px;
@@ -41,6 +44,11 @@
   height: 40px;
 }
 
+hr{
+  border: 1px solid white;
+  margin-top: 50px;
+
+}
 /*=============== MEDIA QUERIES ===============*/
 
 /*========== Medium devices ==========*/

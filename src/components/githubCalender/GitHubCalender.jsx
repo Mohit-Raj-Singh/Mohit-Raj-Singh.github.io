@@ -48,9 +48,6 @@ const Github = () => {
                 <div className='container stats'>
                     <img src="https://github-readme-stats.vercel.app/api?username=Mohit-Raj-Singh&count_private=true&theme=gruvbox&border_radius=15&color=fb982f" alt="stats" />
                 </div>
-                <div className='container stats'>
-                    <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Mohit-Raj-Singh&theme=gruvbox&custom_title=Mohit-Raj-Singh%20's%20contribution%20Graph&border_radius=15&color=fb982f" alt='summery' />
-                </div>
             </div>
 
 
