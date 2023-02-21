@@ -31,7 +31,7 @@ import { BsGithub,  BsLinkedin , BsPerson } from 'react-icons/bs';
 
 export default function Contact() {
     return (
-        <Container bg="#3C3C3D" maxW="full" mt={0} centerContent overflow="hidden">
+        <Container bg="#3C3C3D" maxW="full" mt={0} centerContent overflow="hidden" id='contact'>
             <Flex>
                 <Box
                     bg="#f9f1ac"

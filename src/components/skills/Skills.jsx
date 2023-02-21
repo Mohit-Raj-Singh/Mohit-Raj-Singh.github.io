@@ -17,7 +17,7 @@ import {} from "@chakra-ui/react";
 
 function Skills() {
   return (
-    <Box as={Container} maxW="7xl" mt={14} p={4} id="skill">
+    <Box as={Container} maxW="7xl" mt={14} p={4} id="skills">
       <Heading mb={20} color={"rgb(240, 158, 6)"}>
         My Skills
       </Heading>

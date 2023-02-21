@@ -39,8 +39,8 @@ const Feature = ({ text, icon, iconBg }) => {
 
 function About() {
     return (
-        <Container maxW={"5xl"} py={12} id="intro">
-            <Heading mb={20} color={"rgb(240, 158, 6)"}>
+        <Container maxW={"5xl"} py={12} id="about">
+            <Heading mb={20} color={"#f9f1ac"}>
                 About Me
             </Heading>
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>

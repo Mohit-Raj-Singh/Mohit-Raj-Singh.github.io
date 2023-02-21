@@ -46,7 +46,7 @@ export default function Header() {
               boxShadow={
                 "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
               }
-              // href={link}
+              href={"https://drive.google.com/file/d/1pU66hMY_E8PabIlRXU-TdMBk_0yRGUEA/view?usp=sharing"}
               isExternal
               w={"auto"}
               border="1px"
@@ -58,13 +58,13 @@ export default function Header() {
               fontWeight={"bold"}
               _hover={{ color: "#f09e06", bg: "white" }}
             >
-              Create Project
+              Resume
             </Link>
             <Link  boxShadow={
                 "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
               }
-              // href={link}
-              isExternal
+              href={"#contact"}
+              // isExternal
               w={"auto"}
               border="1px"
               
@@ -73,7 +73,7 @@ export default function Header() {
               borderColor="gray.500"
               bg={"gray.500"}
               fontWeight={"bold"}
-              _hover={{ color: "gray.500", bg: "#f9f1ac" }}>How It Works</Link>
+              _hover={{ color: "gray.500", bg: "#f9f1ac" }}>Contact</Link>
           </Stack>
         </Stack>
       </Flex>

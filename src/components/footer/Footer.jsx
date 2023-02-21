@@ -71,7 +71,6 @@ export default function Footer() {
             // bg={useColorModeValue('gray.50', 'gray.900')}
             bg={useColorModeValue("#f9f1ac")}
             color={useColorModeValue('gray.700', 'gray.200')}
-            mt={20}
         >
             <Container
                 as={Stack}
@@ -81,14 +80,17 @@ export default function Footer() {
                 justify={'center'}
                 align={'center'}>
                 {/* <Logo /> */}
+                <Link href={'#'}>
                 <Avatar size={"md"} src={logo} />
+                </Link>
+                
 
                 <Stack direction={'row'} spacing={6}>
                     <Link href={'#'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Home</Link>
-                    <Link href={'#'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>About</Link>
-                    <Link href={'#'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
-                    <Link href={'#'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Project</Link>
-                    <Link href={'#'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Contact</Link>
+                    <Link href={'#about'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>About</Link>
+                    <Link href={'#skills'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
+                    <Link href={'#project'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Project</Link>
+                    <Link href={'#github'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Github</Link>
                 </Stack>
             </Container>
 

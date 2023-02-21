@@ -56,7 +56,7 @@ function Navbar() {
                 position="fixed"
                 zIndex={1}
                 top={0}
-                borderColor="black"
+                borderColor="white"
             >
 
                 <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
@@ -79,9 +79,9 @@ function Navbar() {
                 ))} */}
                             <Link href={"#"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Home</Link>
                             <Link href={"#about"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>About</Link>
-                            <Link href={"#skill"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
+                            <Link href={"#skills"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
                             <Link href={"#project"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Project</Link>
-                            <Link href={"#"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Contact</Link>
+                            <Link href={"#github"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Github</Link>
                         </HStack>
                     </HStack>
                     <Flex alignItems={"center"}>
@@ -134,8 +134,9 @@ function Navbar() {
                         <Stack as={"nav"} spacing={4}>
                             <Link href={"#"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Home</Link>
                             <Link href={"#about"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>About</Link>
-                            <Link href={"#skill"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Blog</Link>
-                            <Link href={"#"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Contact</Link>
+                            <Link href={"#skills"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
+                            <Link href={"#project"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Projects</Link>
+                            <Link href={"#github"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Github</Link>
                         </Stack>
                     </Box>
                 ) : null}
