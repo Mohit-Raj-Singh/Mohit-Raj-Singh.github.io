@@ -87,6 +87,9 @@ export default function Header() {
           // objectFit={'cover'}
           w={'70%'}
           height="500px"
+          // alignItems={"center"}
+          // justifyContent={"center"}
+          // margin={"auto"}
           src={me}
         />
       </Flex>
