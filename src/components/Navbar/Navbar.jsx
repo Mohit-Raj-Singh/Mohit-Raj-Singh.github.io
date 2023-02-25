@@ -87,11 +87,12 @@ function Navbar() {
                     <Flex alignItems={"center"}>
                         <Button
                             variant={"solid"}
-                            bg={"#f0f7a9"}
+                            bg={"#3C3C3D"}
                             size={"sm"}
                             mr={4}
-                            color={"black"}
+                            color={"white"}
                             leftIcon={<DownloadIcon />}
+                            _hover={{ color:"black", bg:"white" }}
                         >
                             <a
                                 href={Resume}

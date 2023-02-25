@@ -13,7 +13,10 @@ import me from "../../Assets/me.png";
 
 export default function Header() {
   return (
-    <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} >
+    <Stack
+      // minH={'100vh'}
+      mt={"50px"}
+      direction={{ base: 'column', md: 'row' }} >
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={6} w={'full'} maxW={'lg'}>
           <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
@@ -29,7 +32,7 @@ export default function Header() {
                 left: 0,
                 // bg: '#f9f1ac',
                 zIndex: -1,
-                color:'black',
+                color: 'black',
               }}>
               I am
             </Text>
@@ -50,7 +53,7 @@ export default function Header() {
               isExternal
               w={"auto"}
               border="1px"
-              
+
               padding={"8px 15px"}
               borderRadius="10px"
               borderColor="#f9f1ac"
@@ -60,14 +63,14 @@ export default function Header() {
             >
               Resume
             </Link>
-            <Link  boxShadow={
-                "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
-              }
+            <Link boxShadow={
+              "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
+            }
               href={"#contact"}
               // isExternal
               w={"auto"}
               border="1px"
-              
+
               padding={"8px 15px"}
               borderRadius="10px"
               borderColor="gray.500"
@@ -79,10 +82,11 @@ export default function Header() {
       </Flex>
       <Flex flex={1}>
         <Image
+          borderRadius={"50px"}
           alt={'Login Image'}
           // objectFit={'cover'}
-          w={'full'}
-          height="665px"
+          w={'70%'}
+          height="500px"
           src={me}
         />
       </Flex>

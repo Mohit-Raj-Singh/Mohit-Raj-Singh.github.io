@@ -12,13 +12,13 @@ import {
   Image,
   Heading,
 } from "@chakra-ui/react";
-import {} from "@chakra-ui/react";
+import { } from "@chakra-ui/react";
 
 
 function Skills() {
   return (
     <Box as={Container} maxW="7xl" mt={14} p={4} id="skills">
-      <Heading mb={20} color={"rgb(240, 158, 6)"}>
+      <Heading mb={20} color={"#f9f1ac"}>
         My Skills
       </Heading>
       <Grid
@@ -30,7 +30,12 @@ function Skills() {
         gap={4}
       ></Grid>
       <Divider mt={12} mb={12} />
-      <Text fontSize="4xl" color={"rgb(240, 158, 6)"} mt={10}>
+      <Text
+        fontSize="4xl"
+        color={"#f9f1ac"}
+        mt={10}
+        mb={20}
+        >
         Technical Skills
       </Text>
       <Grid
@@ -108,7 +113,7 @@ function Skills() {
 
 
       {/* tools */}
-      <Text fontSize="4xl" color={"rgb(240, 158, 6)"} mt={10}>
+      <Text fontSize="4xl" color={"#f9f1ac"} mt={20}>
         Tools
       </Text>
       <Grid

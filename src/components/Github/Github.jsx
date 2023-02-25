@@ -50,7 +50,7 @@ import {
         overflow={"hidden"}
       >
         <Box width={{ base: "full", sm: "lg", lg: "xl" }} margin={"auto"}>
-          <Heading mb={20} color={"rgb(240, 158, 6)"}>
+          <Heading mb={20} color={"#f9f1ac"}>
             Github
           </Heading>
         </Box>
