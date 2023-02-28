@@ -14,9 +14,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <About />
-      <Projects />
       <Skills />
+      {/* <About /> */}
+      <Projects />
+      
       <GitHub />
       <Contact />
       <Footer />

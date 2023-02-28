@@ -5,11 +5,36 @@ import {
   Image,
   Stack,
   Link,
+  Icon,
   Text,
   useBreakpointValue,
+  useColorModeValue,
+  StackDivider,
 } from '@chakra-ui/react';
+import {
+  IoAnalyticsSharp,
+} from "react-icons/io5";
 // import { Link } from 'react-router-dom';
 import me from "../../Assets/me.png";
+
+
+const Feature = ({ text, icon, iconBg }) => {
+  return (
+      <Stack direction={"row"} align={"center"}>
+          <Flex
+              w={8}
+              h={8}
+              align={"center"}
+              justify={"center"}
+              rounded={"full"}
+              bg={iconBg}
+          >
+              {icon}
+          </Flex>
+          <Text fontWeight={600} color="white">{text}</Text>
+      </Stack>
+  );
+};
 
 export default function Header() {
   return (
@@ -44,6 +69,39 @@ export default function Header() {
           <Text fontSize={{ base: '30%', lg: '25' }} color={'white'}>
             Full Stack MERN Developer
           </Text>
+          <Text color={"white"} fontSize={"lg"}>
+            Enthusiastic Aspiring self-motivated Full Stack Web Developer specialized MERN- stack from Masai School. Worked through 1000+ hours of learning HTML, CSS, JavaScript, React, React-Redux, and Chakra-UI. Looking to start a career as a web developer with a reputed firm driven by technology.
+          </Text>
+          <Stack
+                        spacing={4}
+                        divider={
+                            <StackDivider
+                                borderColor={useColorModeValue("gray.100", "gray.700")}
+                            />
+                        }
+                    >
+                        <Feature
+                            icon={
+                                <Icon as={IoAnalyticsSharp} color={"yellow.500"} w={5} h={5} />
+                            }
+                            iconBg={useColorModeValue("yellow.100", "yellow.900")}
+                            text={"Coding Practice of 1000+ Hours"}
+                        />
+                        <Feature
+                            icon={
+                                <Icon as={IoAnalyticsSharp} color={"green.500"} w={5} h={5} />
+                            }
+                            iconBg={useColorModeValue("green.100", "green.900")}
+                            text={"5+  Projects Completed"}
+                        />
+                        <Feature
+                            icon={
+                                <Icon as={IoAnalyticsSharp} color={"purple.500"} w={5} h={5} />
+                            }
+                            iconBg={useColorModeValue("purple.100", "purple.900")}
+                            text={"DSA Practice of 700+ Hours"}
+                        />
+                    </Stack>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4} justify="center">
             <Link
               boxShadow={
@@ -89,7 +147,7 @@ export default function Header() {
           height="500px"
           // alignItems={"center"}
           // justifyContent={"center"}
-          // margin={"auto"}
+          margin={"auto"}
           src={me}
         />
       </Flex>

@@ -52,10 +52,10 @@ export default function Contact() {
                                             <Button
                                                 size="md"
                                                 height="48px"
-                                                width="200px"
+                                                width="160px"
                                                 variant="ghost"
                                                 color="black"
-                                                // _hover={{ border: '2px solid black' }}
+                                                _hover={{ border: '2px solid black' }}
                                                 leftIcon={<MdPhone color="black" size="20px" />}>
                                                 +91-9458526164
                                             </Button>
@@ -72,7 +72,7 @@ export default function Contact() {
                                             <Button
                                                 size="md"
                                                 height="48px"
-                                                width="200px"
+                                                width="185px"
                                                 variant="ghost"
                                                 color="black"
                                                 _hover={{ border: '2px solid black' }}
@@ -136,8 +136,8 @@ export default function Contact() {
                                 </Box>
                             </WrapItem>
                             <WrapItem>
-                                <Box bg="white" borderRadius="lg">
-                                    <Box m={8} color="#0B0E3F">
+                                <Box bg="#3C3C3D" borderRadius="lg">
+                                    <Box m={8} color="white">
                                         <VStack spacing={5}>
                                             <FormControl id="name">
                                                 <FormLabel>Your Name</FormLabel>

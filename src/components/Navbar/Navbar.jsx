@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, DownloadIcon } from "@chakra-ui/icons";
 import logo from "../../Assets/logo.png";
-import Resume from "../../Assets/Mohit-Raj-Singh-Resume.pdf";
+import Resume from "../../Assets/fw19_1105-Mohit-Raj-Singh-Resume.pdf";
 const Links = ["About Me", "Skills", "Project", "Contact Me"];
 
 

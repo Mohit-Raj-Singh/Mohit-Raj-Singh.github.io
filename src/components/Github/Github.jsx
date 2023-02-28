@@ -11,6 +11,7 @@ import {
     Heading,
     Grid,
     VStack,
+    Divider,
   } from "@chakra-ui/react";
   import GitHubCalendar from "react-github-calendar";
   const image = [
@@ -53,6 +54,7 @@ import {
           <Heading mb={20} color={"#f9f1ac"}>
             Github
           </Heading>
+          
         </Box>
         <VStack gap={{ base: "8", sm: "12", md: "16" }}>
           <Image
@@ -61,6 +63,13 @@ import {
             src="https://github-readme-activity-graph.cyclic.app/graph?username=Mohit-Raj-Singh&color=f09e06&theme=react-dark&custom_title=Mohit-Raj-Singh%20's%20contribution%20Graph&hide_border=true"
             alt="contribution"
           />
+          <Box
+          border="2px solid white"
+          borderRadius="10px"
+          fontWeight="bold"
+          padding="20px 20px"
+          bg="#f9f1ac"
+          >
           <GitHubCalendar
             justify={"center"}
             aline={"center"}
@@ -71,6 +80,7 @@ import {
             color="black"
             width="100vw"
           />
+          </Box>
           {/* <Image
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohit-Raj-Singh&layout=compact&theme=react-dark&color=rgb(240, 158, 6)"
             alt="language"
