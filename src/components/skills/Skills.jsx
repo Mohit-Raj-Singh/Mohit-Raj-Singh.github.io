@@ -76,7 +76,7 @@ function Skills() {
         </VStack>
         <VStack aline={"center"} justify={"center"}>
           <Image
-            src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
+            src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/256/external-redux-an-open-source-javascript-library-for-managing-application-state-logo-color-tal-revivo.png"
             w={20}
           />
           <Text color={"white"}>Redux</Text>

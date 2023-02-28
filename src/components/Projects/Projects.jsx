@@ -83,37 +83,10 @@ function Project() {
           base: "repeat(1, 1fr)",
           sm: "repeat(1, 1fr)",
           md: "repeat(2, 1fr)",
+          lg:"repeat(3, 1fr)"
         }}
         gap={{ base: "8", sm: "9", md: "12" }}
       >
-        {/* <Box>
-          <VStack>
-            <Image src={frazo} />
-            <Text>"Fraazo"</Text>
-            <Text>
-              "FRAAZO is the best online vegetables, fruits & grocery ordering
-              app with over 1.5Mn+ happy customers. We provide the largest
-              variety of farm-fresh vegetables & fruits with FREE home delivery
-              options with our VALET plan. Fresh organic veggies & fruits are
-              directly procured from various nearby farms every day",
-            </Text>
-            <Text>tech stack:react,redux</Text>
-          </VStack>
-        </Box>
-        <Box>
-          <VStack>
-            <Image src={frazo} />
-            <Text>"Fraazo"</Text>
-            <Text>
-              "FRAAZO is the best online vegetables, fruits & grocery ordering
-              app with over 1.5Mn+ happy customers. We provide the largest
-              variety of farm-fresh vegetables & fruits with FREE home delivery
-              options with our VALET plan. Fresh organic veggies & fruits are
-              directly procured from various nearby farms every day",
-            </Text>
-            <Text>tech stack:react,redux</Text>
-          </VStack>
-        </Box> */}
 
 
         {Allproject.map(({ img, title, tech, description, git, link }) => (
@@ -122,7 +95,7 @@ function Project() {
             key={title}
             // w={"500px"}
             m={"50px"}
-            w={{ base: "250px", sm: "300px", md: "400px" }}
+            w={{ base: "250px", sm: "300px", md: "300px", lg:"400px"}}
             aline={"center"}
             justify={"center"}
             margin={"auto"}
@@ -134,14 +107,14 @@ function Project() {
               }
               src={img}
               alt={title}
-              w={{ base: "200px", sm: "250px", md: "360px" }}
+              w={{ base: "200px", sm: "250px", md: "280px" }}
             />
             <Text color={"#f9f1ac "} fontSize="3xl" mt="100px">
               {title}
             </Text>
             <Text
-              w={{ base: "230px", sm: "300px", md: "380px" }}
-              h={{ base: "280px", sm: "300px", md: "180px" }}
+              w={{ base: "230px", sm: "300px", md: "280px" }}
+              h={{ base: "280px", sm: "300px", md: "240px" }}
               color={"white"}
               fontSize={"lg"}
             >
