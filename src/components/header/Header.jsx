@@ -66,7 +66,7 @@ export default function Header() {
               Mohit Raj Singh
             </Text>{' '}
           </Heading>
-          <Text fontSize={{ base: '30%', lg: '25' }} color={'white'}>
+          <Text fontSize={{ base: '21', lg: '25' }} color={'#d0b448'}>
             Full Stack MERN Developer
           </Text>
           <Text color={"white"} fontSize={"lg"}>
@@ -144,7 +144,7 @@ export default function Header() {
           alt={'Login Image'}
           // objectFit={'cover'}
           w={'70%'}
-          height="500px"
+          // height="500px"
           // alignItems={"center"}
           // justifyContent={"center"}
           margin={"auto"}

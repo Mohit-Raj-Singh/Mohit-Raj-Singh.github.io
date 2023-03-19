@@ -22,7 +22,7 @@ const Allproject = [
     img: uboric,
     title: "Uboric-Clone",
     description:
-      "Uboric is an India-based E-commerce that delivers throughout India. You can shop for the desired product right from the comfort of your home and get them delivered straight to your doorstep.",
+      "Uboric is an Ecommerce that delivers throughout India. You can shop for the desired product for your home and get them delivered to your doorstep.",
     git: "https://github.com/Mohit-Raj-Singh/-daily-purpose-3625",
     link: "https://u-shopic.vercel.app/",
     tech: "React.js | React-Redux"
@@ -92,20 +92,21 @@ function Project() {
             margin={"auto"}
           >
             <Image
-              padding={7}
+              padding="15px"
               boxShadow={
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px"
               }
               src={img}
               alt={title}
-              w={{ base: "200px", sm: "250px", md: "280px" }}
+              w={{ base: "250px", sm: "300px", md: "300px", lg:"400px" }}
+              // h={{ base: "180px", sm: "180px", md: "220px", lg:"280px" }}
             />
             <Text color={"#f9f1ac "} fontSize="3xl" mt="100px">
               {title}
             </Text>
             <Text
               w={{ base: "230px", sm: "300px", md: "280px" }}
-              h={{ base: "280px", sm: "300px", md: "240px" }}
+              h={{ base: "280px", sm: "300px", md: "175px" }}
               color={"white"}
               fontSize={"lg"}
             >
