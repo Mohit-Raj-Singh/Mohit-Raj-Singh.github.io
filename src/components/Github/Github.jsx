@@ -6,8 +6,6 @@ import {
     Flex,
     Icon,
     Image,
-    SimpleGrid,
-    useColorModeValue,
     Heading,
     Grid,
     VStack,
