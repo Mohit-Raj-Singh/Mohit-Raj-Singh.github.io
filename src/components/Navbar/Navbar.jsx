@@ -21,6 +21,9 @@ import Resume from "../../Assets/fw19_1105-Mohit-Raj-Singh-Resume.pdf";
 const Links = ["About Me", "Skills", "Project", "Contact Me"];
 
 
+
+
+
 const NavLink = ({ children }) => (
     <Link
         px={2}
