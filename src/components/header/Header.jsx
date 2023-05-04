@@ -140,7 +140,7 @@ export default function Header() {
       </Flex>
       <Flex flex={1}>
         <Image
-          borderRadius={"50px"}
+          borderRadius={"50% 20%/ 10% 40%"}
           alt={'Login Image'}
           // objectFit={'cover'}
           w={'70%'}

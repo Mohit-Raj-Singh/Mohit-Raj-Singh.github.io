@@ -25,7 +25,7 @@ import {
       const currentMonth = new Date().getMonth();
       const shownMonths = 5;
   
-  
+
       return contributions.filter((day) => {
         const date = new Date(day.date);
         const monthOfDay = date.getMonth();

@@ -87,10 +87,11 @@ export default function Footer() {
 
                 <Stack direction={'row'} spacing={6}>
                     <Link href={'#'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Home</Link>
-                    <Link href={'#about'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>About</Link>
+                    
                     <Link href={'#skills'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
                     <Link href={'#project'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Project</Link>
                     <Link href={'#github'} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Github</Link>
+                    <Link href={"#contact"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Contact</Link>
                 </Stack>
             </Container>
 

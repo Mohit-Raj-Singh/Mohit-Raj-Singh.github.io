@@ -46,6 +46,7 @@ const NavLink = ({ children }) => (
 function Navbar() {
     const { isOpen, onOpen, onClose } = useDisclosure();
 
+    
 
     return (
         <>
@@ -81,10 +82,11 @@ function Navbar() {
                   <NavLink key={link}>{link}</NavLink>
                 ))} */}
                             <Link href={"#"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Home</Link>
-                            <Link href={"#about"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>About</Link>
+                            
                             <Link href={"#skills"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
                             <Link href={"#project"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Project</Link>
                             <Link href={"#github"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Github</Link>
+                            <Link href={"#contact"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Contact</Link>
                         </HStack>
                     </HStack>
                     <Flex alignItems={"center"}>
@@ -137,10 +139,11 @@ function Navbar() {
                     <Box pb={4} display={{ md: "none" }}>
                         <Stack as={"nav"} spacing={4}>
                             <Link href={"#"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Home</Link>
-                            <Link href={"#about"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>About</Link>
+                            
                             <Link href={"#skills"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Skills</Link>
                             <Link href={"#project"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Projects</Link>
                             <Link href={"#github"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Github</Link>
+                            <Link href={"#contact"} fontWeight='semibold' _hover={{ fontSize: "20", fontWeight: 'bold' }}>Contact</Link>
                         </Stack>
                     </Box>
                 ) : null}
