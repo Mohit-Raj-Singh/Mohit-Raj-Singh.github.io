@@ -11,11 +11,9 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import uboric from "../../Assets/portfolio1.png";
-import rentomojo from "../../Assets/portfolio2.png";
-import kick from "../../Assets/portfolio3.png";
-import gearbest from "../../Assets/portfolio4.png";
-
-
+import rentomojo from "../../Assets/portfolio4.png";
+import booking from "../../Assets/portfolio2.png";
+import koovs from "../../Assets/portfolio3.png";
 
 const Allproject = [
   {
@@ -25,34 +23,36 @@ const Allproject = [
       "Uboric is an Ecommerce that delivers throughout India. You can shop for the desired product for your home and get them delivered to your doorstep.",
     git: "https://github.com/Mohit-Raj-Singh/-daily-purpose-3625",
     link: "https://u-shopic.vercel.app/",
-    tech: "React.js | React-Redux"
+    tech: "React.js | React-Redux , JavaScript | Chakra-UI",
+  },
+  {
+    img: booking,
+    title: "Booking.com - Clone",
+    description:
+      "Booking.com is an online travel agency for lodging reservations.",
+    git: "https://github.com/Mohit-Raj-Singh/Booking.com-Clone",
+    link: "https://booking-come-1562.netlify.app/",
+    tech: "React.js | React-Redux , JavaScript | Chakra-UI",
+  },
+  {
+    img: koovs,
+    title: "Koovs.com - Clone",
+    description:
+      "Clone of Koovs.com, koovs is a Ecomerse related website which helps you to find the different kinds of the products.",
+    git: "https://github.com/Mohit-Raj-Singh/Koovs-Clone",
+    link: "https://frontend-mohit-6164.vercel.app/",
+    tech: "React.js | React-Redux , JavaScript | Chakra-UI | Node.js | Express.js | MongoDB",
   },
   {
     img: rentomojo,
     title: "Rentomojo - Clone",
-    description: "India's leading rental platform brings to you a wide range of products on rent. Experience the freedom to live the life you want, now.",
+    description:
+      "India's leading rental platform brings to you a wide range of products on rent. Experience the freedom to live the life you want, now.",
     git: "https://github.com/pratiksontakke/prompt-advertisement-8166",
     link: "https://jovial-dusk-c6ab4b.netlify.app/",
     tech: "HTML | CSS | Javascript ",
   },
-  {
-    img: kick,
-    title: "Kickstarter - Clone",
-    description: "Kickstarter is one of those platforms that gives you space to work with people who know you and support you",
-    git: "https://github.com/RajatMujawar123/large-house-6330",
-    link: "https://legendary-pony-75d1d1.netlify.app/",
-    tech: "HTML | CSS | Javascript ",
-    },
-  {
-    img: gearbest,
-    title: "Gearbest - Clone",
-    description: "Gearbest provides the most cost-efficient delivery service covering 200+ countries and regions, most of which enjoy free door-to-door delivery.",
-    git: "https://github.com/Mohit-Raj-Singh/Team-Gearbest",
-    link: "https://celadon-cendol-c3a752.netlify.app/",
-    tech: "HTML | CSS | Javascript ",
-  },
 ];
-
 
 function Project() {
   return (
@@ -74,12 +74,10 @@ function Project() {
           base: "repeat(1, 1fr)",
           sm: "repeat(1, 1fr)",
           md: "repeat(2, 1fr)",
-          lg: "repeat(3, 1fr)"
+          lg: "repeat(3, 1fr)",
         }}
         gap={{ base: "8", sm: "9", md: "12" }}
       >
-
-
         {Allproject.map(({ img, title, tech, description, git, link }) => (
           <VStack
             boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
@@ -98,7 +96,7 @@ function Project() {
               }
               src={img}
               alt={title}
-              w={{ base: "250px", sm: "300px", md: "300px", lg:"400px" }}
+              w={{ base: "250px", sm: "300px", md: "300px", lg: "400px" }}
               // h={{ base: "180px", sm: "180px", md: "220px", lg:"280px" }}
             />
             <Text color={"#f9f1ac "} fontSize="3xl" mt="100px">
@@ -115,7 +113,6 @@ function Project() {
             <Text frontWidth={"lg"} color={"white"}>
               Tech stack: {tech}
             </Text>
-
 
             <HStack padding={7}>
               <Link
@@ -136,7 +133,6 @@ function Project() {
               >
                 Github
               </Link>
-
 
               <Link
                 boxShadow={
@@ -164,19 +160,3 @@ function Project() {
   );
 }
 export default Project;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
