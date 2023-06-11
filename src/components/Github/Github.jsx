@@ -1,73 +1,57 @@
-import {
-    Avatar,
-    Box,
-    chakra,
-    Container,
-    Flex,
-    Icon,
-    Image,
-    Heading,
-    Grid,
-    VStack,
-    Divider,
-  } from "@chakra-ui/react";
-  import GitHubCalendar from "react-github-calendar";
-  const image = [
-    "https://github-readme-activity-graph.cyclic.app/graph?username=Mohit-Raj-Singh&color=f09e06&theme=react-dark&custom_title=Mohit-Raj-Singh%20's%20contribution%20Graph&hide_border=true",
-    "https://github-readme-streak-stats.herokuapp.com/?user=Mohit-Raj-Singh&show_icons=true&locale=en&theme=gruvbox&count_private=true",
-    "https://github-readme-stats.vercel.app/api?username=Mohit-Raj-Singh&theme=algolia&hide_border=false&include_all_commits=true&count_private=true",
-  ];
-  
-  
-  function GitHub() {
-    const selectLastHalfYear = (contributions) => {
-      const currentYear = new Date().getFullYear();
-      const currentMonth = new Date().getMonth();
-      const shownMonths = 5;
-  
+import { Box, Flex, Image, Heading, VStack } from "@chakra-ui/react";
+import GitHubCalendar from "react-github-calendar";
+// const image = [
+//   "https://github-readme-activity-graph.cyclic.app/graph?username=Mohit-Raj-Singh&color=f09e06&theme=react-dark&custom_title=Mohit-Raj-Singh%20's%20contribution%20Graph&hide_border=true",
+//   "https://github-readme-streak-stats.herokuapp.com/?user=Mohit-Raj-Singh&show_icons=true&locale=en&theme=gruvbox&count_private=true",
+//   "https://github-readme-stats.vercel.app/api?username=Mohit-Raj-Singh&theme=algolia&hide_border=false&include_all_commits=true&count_private=true",
+// ];
 
-      return contributions.filter((day) => {
-        const date = new Date(day.date);
-        const monthOfDay = date.getMonth();
-  
-  
-        return (
-          date.getFullYear() === currentYear ||
-          monthOfDay > currentMonth - shownMonths ||
-          monthOfDay <= currentMonth
-        );
-      });
-    };
-    return (
-      <Flex
+function GitHub() {
+  const selectLastHalfYear = (contributions) => {
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth();
+    const shownMonths = 5;
+
+    return contributions.filter((day) => {
+      const date = new Date(day.date);
+      const monthOfDay = date.getMonth();
+
+      return (
+        date.getFullYear() === currentYear ||
+        monthOfDay > currentMonth - shownMonths ||
+        monthOfDay <= currentMonth
+      );
+    });
+  };
+  return (
+    <Flex
       id="github"
-        textAlign={"center"}
-        pt={10}
-        justifyContent={"center"}
-        direction={"column"}
-        width={"full"}
-        overflow={"hidden"}
-      >
-        <Box width={{ base: "full", sm: "lg", lg: "xl" }} margin={"auto"}>
-          <Heading mb={20} color={"#f9f1ac"}>
-            Github
-          </Heading>
-          
-        </Box>
-        <VStack gap={{ base: "8", sm: "12", md: "16" }}>
-          <Image
+      textAlign={"center"}
+      pt={10}
+      justifyContent={"center"}
+      direction={"column"}
+      width={"full"}
+      overflow={"hidden"}
+    >
+      <Box width={{ base: "full", sm: "lg", lg: "xl" }} margin={"auto"}>
+        <Heading mb={20} color={"#f9f1ac"}>
+          Github
+        </Heading>
+      </Box>
+      <VStack gap={{ base: "8", sm: "12", md: "16" }}>
+        {/* <Image
             justify={"center"}
             aline={"center"}
             src="https://github-readme-activity-graph.cyclic.app/graph?username=Mohit-Raj-Singh&color=f09e06&theme=react-dark&custom_title=Mohit-Raj-Singh%20's%20contribution%20Graph&hide_border=true"
             alt="contribution"
-          />
-          <Box
+          /> */}
+        <Box
           border="2px solid white"
           borderRadius="10px"
           fontWeight="bold"
           padding="20px 20px"
           bg="#f9f1ac"
-          >
+        >
           <GitHubCalendar
             justify={"center"}
             aline={"center"}
@@ -78,26 +62,26 @@ import {
             color="black"
             width="100vw"
           />
-          </Box>
-          {/* <Image
+        </Box>
+        {/* <Image
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohit-Raj-Singh&layout=compact&theme=react-dark&color=rgb(240, 158, 6)"
             alt="language"
           /> */}
-          <Image
-            justify={"center"}
-            aline={"center"}
-            src="https://github-readme-streak-stats.herokuapp.com/?user=Mohit-Raj-Singh&show_icons=true&locale=en&theme=gruvbox&count_private=true"
-            alt="starts"
-          />
-          <Image
-            justify={"center"}
-            padding={"10px"}
-            aline={"center"}
-            src="https://github-readme-stats.vercel.app/api?username=Mohit-Raj-Singh&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true"
-            alt="stats"
-          />
-        </VStack>
-        {/* <Box>
+        <Image
+          justify={"center"}
+          aline={"center"}
+          src="https://github-readme-streak-stats.herokuapp.com/?user=Mohit-Raj-Singh&show_icons=true&locale=en&theme=gruvbox&count_private=true"
+          alt="starts"
+        />
+        <Image
+          justify={"center"}
+          padding={"10px"}
+          aline={"center"}
+          src="https://github-readme-stats.vercel.app/api?username=Mohit-Raj-Singh&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true"
+          alt="stats"
+        />
+      </VStack>
+      {/* <Box>
           <Icon viewBox="0 0 40 35" mt={14} boxSize={10} color={"purple.400"}>
             <path
               fill={"currentColor"}
@@ -105,29 +89,15 @@ import {
             />
           </Icon>
         </Box> */}
-      </Flex>
-    );
-  }
-  export default GitHub;
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </Flex>
+  );
+}
+export default GitHub;
 
 // import { Box, Container, Flex, Heading, Image, Text } from "@chakra-ui/react";
 // import React from "react";
 // import GitHubCalendar from "react-github-calendar";
 // // import GitHubCalendar from "react-g"
-
 
 // const GitHub = () => {
 

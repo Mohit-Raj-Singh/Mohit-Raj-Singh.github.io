@@ -14,6 +14,10 @@ import uboric from "../../Assets/portfolio1.png";
 import rentomojo from "../../Assets/portfolio4.png";
 import booking from "../../Assets/portfolio2.png";
 import koovs from "../../Assets/portfolio3.png";
+import { SiRedux, SiChakraui } from "react-icons/si";
+import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
+// import { MdMilitaryTech } from "react-icons/md";
+import { DiMongodb } from "react-icons/di";
 
 const Allproject = [
   {
@@ -23,7 +27,13 @@ const Allproject = [
       "Uboric is an Ecommerce that delivers throughout India. You can shop for the desired product for your home and get them delivered to your doorstep.",
     git: "https://github.com/Mohit-Raj-Singh/-daily-purpose-3625",
     link: "https://u-shopic.vercel.app/",
-    tech: "React.js | React-Redux , JavaScript | Chakra-UI",
+    // tech: "React.js | React-Redux , JavaScript | Chakra-UI",
+    tech: [
+      <FaCss3Alt size={"44px"} />,
+      <FaReact size={"44px"} />,
+      <SiRedux size={"44px"} />,
+      <SiChakraui size={"44px"} />,
+    ],
   },
   {
     img: booking,
@@ -32,7 +42,13 @@ const Allproject = [
       "Booking.com is an online travel agency for lodging reservations.",
     git: "https://github.com/Mohit-Raj-Singh/Booking.com-Clone",
     link: "https://booking-come-1562.netlify.app/",
-    tech: "React.js | React-Redux , JavaScript | Chakra-UI",
+    // tech: "React.js | React-Redux , JavaScript | Chakra-UI",
+    tech: [
+      <FaCss3Alt size={"44px"} />,
+      <FaReact size={"44px"} />,
+      <SiRedux size={"44px"} />,
+      <SiChakraui size={"44px"} />,
+    ],
   },
   {
     img: koovs,
@@ -41,7 +57,13 @@ const Allproject = [
       "Clone of Koovs.com, koovs is a Ecomerse related website which helps you to find the different kinds of the products.",
     git: "https://github.com/Mohit-Raj-Singh/Koovs-Clone",
     link: "https://frontend-mohit-6164.vercel.app/",
-    tech: "React.js | React-Redux , JavaScript | Chakra-UI | Node.js | Express.js | MongoDB",
+    // tech: "React.js | React-Redux , JavaScript | Chakra-UI | Node.js | Express.js | MongoDB",
+    tech: [
+      <FaCss3Alt size={"44px"} />,
+      <FaReact size={"44px"} />,
+      <DiMongodb size={"44px"} />,
+      <SiChakraui size={"44px"} />,
+    ],
   },
   {
     img: rentomojo,
@@ -50,7 +72,13 @@ const Allproject = [
       "India's leading rental platform brings to you a wide range of products on rent. Experience the freedom to live the life you want, now.",
     git: "https://github.com/pratiksontakke/prompt-advertisement-8166",
     link: "https://jovial-dusk-c6ab4b.netlify.app/",
-    tech: "HTML | CSS | Javascript ",
+    // tech: "HTML | CSS | Javascript ",
+    tech: [
+      <FaHtml5 size={"44px"} />,
+      <FaCss3Alt size={"44px"} />,
+      <FaReact size={"44px"} />,
+      // <SiChakraui size={"44px"} />,
+    ],
   },
 ];
 
@@ -110,9 +138,16 @@ function Project() {
             >
               {description}
             </Text>
-            <Text frontWidth={"lg"} color={"white"}>
+            {/* <Text frontWidth={"lg"} color={"white"}>
               Tech stack: {tech}
-            </Text>
+            </Text> */}
+
+            <HStack color={"#f9f1ac"}>
+              <Box>{tech[0]}</Box>
+              <Box>{tech[1]}</Box>
+              <Box>{tech[2]}</Box>
+              <Box>{tech[3]}</Box>
+            </HStack>
 
             <HStack padding={7}>
               <Link
