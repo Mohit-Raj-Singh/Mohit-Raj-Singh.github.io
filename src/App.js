@@ -15,14 +15,10 @@ function App() {
       <Navbar />
       <Header />
       <Skills />
-      {/* <About /> */}
       <Projects />
-      
       <GitHub />
       <Contact />
       <Footer />
-      
-
     </div>
   );
 }

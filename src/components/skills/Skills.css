@@ -1,0 +1,135 @@
+.slider {
+  margin: auto;
+  padding: 10px;
+  /* height: 150px; */
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  place-items: center;
+}
+
+.slide-track {
+  gap: 20px;
+  display: flex;
+  width: calc(150px * 16);
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-170px * 9));
+  }
+}
+
+.slide {
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+  min-width: 170px;
+  min-height: 140px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  border: 2px solid #59b0bb;
+}
+
+.slide > img {
+  width: 80%;
+  transition: 600ms;
+  filter: grayscale(100);
+}
+
+.slide:hover .slide-image {
+  filter: grayscale(0);
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  cursor: pointer;
+  transition: all 600ms;
+  border: 2px solid #59b0bb;
+  box-shadow: #59b0bb 3px 3px 5px 2px;
+}
+
+.slide:hover {
+  box-shadow: #59b0bb 3px 3px 5px 2px;
+  /* box-shadow: ##59b0bb 0px 5px 15px; */
+}
+
+.tools-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tools {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #59b0bb;
+  box-shadow: #59b0bb 3px 3px 5px 2px;
+}
+.lastTool {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #59b0bb;
+  box-shadow: #59b0bb 3px 3px 5px 2px;
+}
+
+.tools > img {
+  object-fit: contain;
+  object-position: center;
+  width: 100px;
+  aspect-ratio: 1 / 1;
+}
+
+.tools-container > .tools:last-child {
+  filter: invert(100);
+}
+.lastTool > img {
+  object-fit: contain;
+  object-position: center;
+  width: 100px;
+  aspect-ratio: 1 / 1;
+}
+
+.lastTool-container > .lastTool:last-child {
+  filter: invert(100);
+}
+
+.calendar {
+  scale: 1.4;
+  margin: auto;
+  margin-top: 100px;
+  width: max-content;
+}
+
+@media only screen and (width <=768) {
+  .calendar {
+    scale: 1;
+  }
+}
+
+@media screen and (425px <=width <=768px) {
+  .github-card {
+    display: flex !important;
+  }
+
+  .github-card > div {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (width <=768) {
+  .tools > img {
+    width: 50px;
+  }
+}

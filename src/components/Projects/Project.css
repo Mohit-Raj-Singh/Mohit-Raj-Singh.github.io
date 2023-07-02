@@ -1,0 +1,42 @@
+.project-image * {
+    transition: all 600ms;
+}
+
+.project-image {
+    perspective: 100px;
+}
+
+
+.pr-image:hover {
+    transform: translateZ(12px);
+}
+
+.pr-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 380px !important; */
+    border: 2px solid #59b0bb;
+    transition: all 600ms;
+    box-shadow: #59b0bb 0px 2px 5px;
+}
+
+.pr-card:hover {
+    box-shadow: #59b0bb 0px 5px 15px;
+}
+
+.pr-details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card-desc {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
