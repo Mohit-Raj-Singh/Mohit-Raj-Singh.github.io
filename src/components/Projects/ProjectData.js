@@ -1,3 +1,9 @@
+import rentoMojo from "../../Assets/portfolio4.png";
+import uboric from "../../Assets/portfolio1.png";
+import booking from "../../Assets/portfolio2.png";
+import koovs from "../../Assets/portfolio3.png";
+
+
 export const projectsData = [
     {
         id: 1,
@@ -6,7 +12,8 @@ export const projectsData = [
         techStack: ['html', 'css', 'javascript', 'react', 'chakra', 'redux'],
         live: "https://u-shopic.vercel.app/",
         codebase: "https://github.com/Mohit-Raj-Singh/-daily-purpose-3625",
-        landingPage: 'https://user-images.githubusercontent.com/85006343/194060922-a809d4fb-f189-4cac-aeb6-8fb610f45112.png'
+        // landingPage: 'https://user-images.githubusercontent.com/85006343/194060922-a809d4fb-f189-4cac-aeb6-8fb610f45112.png'
+        landingPage: uboric
     },
     {
         id: 2,
@@ -15,7 +22,7 @@ export const projectsData = [
         techStack: ['html', 'css', 'javascript', 'react', 'redux'],
         live: "https://booking-come-1562.netlify.app/",
         codebase: "https://github.com/Mohit-Raj-Singh/Booking.com-Clone",
-        landingPage: 'https://user-images.githubusercontent.com/104014308/188278962-d6006f9a-c3d7-49f8-b2ec-2c560440f941.JPG'
+        landingPage: booking
     },
     {
         id: 3,
@@ -24,7 +31,7 @@ export const projectsData = [
         techStack: ['html', 'css', 'javascript', 'react', 'redux', 'nodejs', 'expressjs', 'mongodb'],
         live: "https://koovs-mu.vercel.app/",
         codebase: "https://github.com/Mohit-Raj-Singh/Koovs-Clone",
-        landingPage: 'https://user-images.githubusercontent.com/107980582/221499524-d1037907-1c3b-4a00-9ac4-f843eedd9784.png'
+        landingPage: koovs
     },
     {
         id: 4,
@@ -33,7 +40,8 @@ export const projectsData = [
         techStack: ['html', 'css', 'javascript'],
         live: "https://jovial-dusk-c6ab4b.netlify.app/",
         codebase: "https://github.com/Mohit-Raj-Singh/Rentomojo_clone",
-        landingPage: 'https://mohit-raj-singh.github.io/static/media/portfolio4.88ce0aa98ea75ace80af.png'
+        // landingPage: 'https://mohit-raj-singh.github.io/static/media/portfolio4.88ce0aa98ea75ace80af.png'
+        landingPage: rentoMojo
     },
 ]
 

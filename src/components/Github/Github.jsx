@@ -29,7 +29,7 @@ function GitHub() {
       overflow={"hidden"}
     >
       <Box width={{ base: "full", sm: "lg", lg: "xl" }} margin={"auto"}>
-        <Heading mb={20} color={"white"}>
+        <Heading mb={10} color={"white"}>
           Github
         </Heading>
       </Box>

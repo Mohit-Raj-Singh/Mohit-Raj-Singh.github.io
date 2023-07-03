@@ -27,7 +27,7 @@ export default function Contact() {
     <Container
       bg="#101327"
       maxW="full"
-      mt={0}
+      mt={20}
       centerContent
       overflow="hidden"
       id="contact"

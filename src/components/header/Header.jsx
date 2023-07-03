@@ -150,7 +150,7 @@ export default function Header() {
           // borderRadius={"50% 50% 50% 50%"}
           bg={"#59b0bb"}
           alt={"Login Image"}
-          w={"50%"}
+          w={"60%"}
           margin={"auto"}
           src={myImg}
         />
