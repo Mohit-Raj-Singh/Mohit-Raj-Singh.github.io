@@ -58,7 +58,7 @@ const Project = () => {
             lg: "repeat(3,1fr)",
           }}
           justifyContent={"space-between"}
-          gap="5%"
+          gap="10px"
         >
           {projectsData.map((project) => {
             return <ProjectCards {...project} key={project.id} />;
