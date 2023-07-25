@@ -65,7 +65,7 @@ export default function Header() {
           </Text>
           <Text color={"white"} fontSize={"lg"}>
             Enthusiastic Aspiring self-motivated Full Stack Web Developer
-            specialized MERN- stack from Masai School. Worked through 1000+
+            specialized MERN- stack from Masai School. Worked through 1200+
             hours of learning HTML, CSS, JavaScript, React, React-Redux, and
             Chakra-UI. Looking to start a career as a web developer with a
             reputed firm driven by technology.
@@ -83,7 +83,7 @@ export default function Header() {
                 <Icon as={IoAnalyticsSharp} color={"#101327"} w={5} h={5} />
               }
               iconBg={useColorModeValue("#59b0bb", "yellow.900")}
-              text={"Coding Practice of 1000+ Hours"}
+              text={"Coding Practice of 1200+ Hours"}
             />
             <Feature
               icon={
