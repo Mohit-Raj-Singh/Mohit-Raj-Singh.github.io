@@ -15,6 +15,7 @@ import {
 import { HamburgerIcon, CloseIcon, DownloadIcon } from "@chakra-ui/icons";
 import logo from "../../Assets/logo.png";
 import Resume from "../../Assets/fw19_1105-Mohit-Raj-Singh-Resume.pdf";
+// import Resume from  "../../Assests/fw19_1105-Mohit-Raj-Singh-Resume.pdf";
 
 function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();

@@ -1,10 +1,30 @@
 import { Box, Text, Heading } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ProjectCards from "./ProjectCard";
 import { projectsData } from "./ProjectData";
 import "./Project.css";
+import axios from "axios";
 
 const Project = () => {
+
+  const[mproject,setMproject]=useState([]);
+
+  const getData=async()=>{
+    try{
+      const response= await axios.get("https://puce-friendly-clownfish.cyclic.app/get");
+      setMproject(response.data);
+    }
+    catch(err){
+      console.log(err);
+    }
+  }
+
+
+  useEffect(()=>{
+    getData();
+    console.log(mproject);
+  },[]);
+
   return (
     <Box id="project" color={"white"} pt="40">
       <Box w="100%">
