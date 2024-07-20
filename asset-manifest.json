@@ -1,23 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ef11d9f.css",
-    "main.js": "/static/js/main.74f1221a.js",
-    "static/js/787.68dbee1e.chunk.js": "/static/js/787.68dbee1e.chunk.js",
-    "static/media/myImg.png": "/static/media/myImg.a3aa40a8e80cd3fda400.png",
-    "static/media/portfolio1.png": "/static/media/portfolio1.3558be71efc61c4fd6f7.png",
-    "static/media/portfolio2.png": "/static/media/portfolio2.0c8868c549162d0c4023.png",
-    "static/media/portfolio4.png": "/static/media/portfolio4.88ce0aa98ea75ace80af.png",
-    "static/media/portfolio3.png": "/static/media/portfolio3.5859a5c69d0654c5540a.png",
-    "static/media/fw19_1105-Mohit-Raj-Singh-Resume.pdf": "/static/media/fw19_1105-Mohit-Raj-Singh-Resume.47afc18e34996e9542bb.pdf",
-    "static/media/logo.png": "/static/media/logo.21c04ecec0dd5944fa67.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.14490f55.css",
+    "main.js": "/static/js/main.2a9dcfe3.js",
+    "static/js/453.370a8f1b.chunk.js": "/static/js/453.370a8f1b.chunk.js",
     "index.html": "/index.html",
-    "main.6ef11d9f.css.map": "/static/css/main.6ef11d9f.css.map",
-    "main.74f1221a.js.map": "/static/js/main.74f1221a.js.map",
-    "787.68dbee1e.chunk.js.map": "/static/js/787.68dbee1e.chunk.js.map"
+    "main.14490f55.css.map": "/static/css/main.14490f55.css.map",
+    "main.2a9dcfe3.js.map": "/static/js/main.2a9dcfe3.js.map",
+    "453.370a8f1b.chunk.js.map": "/static/js/453.370a8f1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ef11d9f.css",
-    "static/js/main.74f1221a.js"
+    "static/css/main.14490f55.css",
+    "static/js/main.2a9dcfe3.js"
   ]
 }
