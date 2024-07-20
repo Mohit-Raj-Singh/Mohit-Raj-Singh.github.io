@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "React.js",
+    "image": "images/skill-icons/react.svg"
+  },
+  {
+    "id": 2,
+    "title": "Next.js",
+    "image": "images/skill-icons/next.svg"
+  },
+  {
+    "id": 3,
+    "title": "Nest.js",
+    "image": "images/skill-icons/nest.svg"
+  },
+  {
+    "id": 4,
+    "title": "Node.js",
+    "image": "images/skill-icons/node.svg"
+  },
+  {
+    "id": 11,
+    "title": "TypeScript",
+    "image": "images/skill-icons/typescript.svg"
+  },
+  {
+    "id": 12,
+    "title": "Redux",
+    "image": "images/skill-icons/redux.svg"
+  },
+  {
+    "id": 5,
+    "title": "JavaScript",
+    "image": "images/skill-icons/javascript.svg"
+  },
+  {
+    "id": 6,
+    "title": "MySql",
+    "image": "images/skill-icons/mysql.svg"
+  },
+  {
+    "id": 7,
+    "title": "MongoDb",
+    "image": "images/skill-icons/mongodb.svg"
+  },
+  {
+    "id": 8,
+    "title": "HTML",
+    "image": "images/skill-icons/html.svg"
+  },
+  {
+    "id": 9,
+    "title": "CSS",
+    "image": "images/skill-icons/css.svg"
+  },
+  {
+    "id": 10,
+    "title": "Express.js",
+    "image": "images/skill-icons/express.svg"
+  }
+]

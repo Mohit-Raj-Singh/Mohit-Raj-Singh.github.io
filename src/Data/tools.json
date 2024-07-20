@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "VsCode",
+    "image": "images/skill-icons/vscode.svg"
+  },
+  {
+    "id": 2,
+    "title": "GitHub",
+    "image": "images/skill-icons/github.svg"
+  },
+  {
+    "id": 3,
+    "title": "Postman",
+    "image": "images/skill-icons/postman.svg"
+  },
+  {
+    "id": 4,
+    "title": "Git",
+    "image": "images/skill-icons/git.svg"
+  }
+]

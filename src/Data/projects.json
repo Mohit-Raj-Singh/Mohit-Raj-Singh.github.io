@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Weather App",
+    "description": "Created a Weather web app where you can search for weather data of any Indian city and also use your current GPS location to display weather information.",
+    "image": "images/weather.png",
+    "github": "https://github.com/Mohit-Raj-Singh/weather-app",
+    "live": "https://weather-app.sabtech.cloud/"
+  },
+  {
+    "id": 2,
+    "title": "Booking-Clone",
+    "description": "I cloned the Booking.com web app, allowing users to search for flights and hotels. The tech stack used includes React.js, HTML, CSS, and JavaScript.",
+    "image": "images/booking.png",
+    "github": "https://github.com/Mohit-Raj-Singh/Booking.com-Clone",
+    "live": "https://booking-come-1562.netlify.app/"
+  },
+  {
+    "id": 3,
+    "title": "Koovs-Clone",
+    "description": "Clone of Koovs.com, koovs is a Ecomerse related website which helps you to find the different kinds of the products.",
+    "image": "images/koovs.png",
+    "github": "https://github.com/Mohit-Raj-Singh/Koovs-Clone",
+    "live": "https://koovs-mu.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Uboric-Clone",
+    "description": "Uboric is an India-based E-commerce that delivers throughout India. You can shop for the desired product right from the comfort of your home and get them delivered straight to your doorstep.",
+    "image": "images/uboric.png",
+    "github": "https://github.com/Mohit-Raj-Singh/Uboric.com-Clone",
+    "live": "https://u-shopic.vercel.app/"
+  }
+]
