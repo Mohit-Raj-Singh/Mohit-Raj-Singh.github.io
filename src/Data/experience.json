@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "org_name": "ChainCode Consulting LLP, Chandigarh",
-    "title": "Full Stack Developer(Promotion)",
-    "description": "In the NFTtrace project, I worked on the Aashtha Special Train and Tejas Holi Special Train phases, contributing to frontend and backend development. I collaborated with team members to deliver high-quality solutions and meet project milestones. Additionally, I integrated Web3 technologies to enhance the project's blockchain capabilities.",
-    "duration": "Oct 2023-Present"
+    "org_name": "Genboot Private LTD.",
+    "title": "Full Stack Developer",
+    "description": "At Genboot, I collaborate with a US client on the Klaviss web app, a platform for real estate transactions. As the team lead, I contribute to both frontend and backend development, tackling multiple modules, including those involving LLM integration.",
+    "duration": "Sept 2024-Present"
   },
   {
     "id": 2,
+    "org_name": "ChainCode Consulting LLP, Chandigarh",
+    "title": "Full Stack Developer",
+    "description": "In the NFTtrace project, I worked on the Aashtha Special Train and Tejas Holi Special Train phases, contributing to frontend and backend development. I collaborated with team members to deliver high-quality solutions and meet project milestones. Additionally, I integrated Web3 technologies to enhance the project's blockchain capabilities.",
+    "duration": "Sept 2023-Sept 2024"
+  },
+  {
+    "id": 3,
     "org_name": "Whatcode.in (Remote)",
     "title": "Jr Full Stack Developer",
     "description": "I worked on the AceTech project, handling UI development and frontend integration. I designed functional user interfaces and ensured seamless user experience, collaborating with backend developers to deliver a polished product.",
-    "duration": "Sept-2022-Oct 2023"
+    "duration": "Aug 2022-Sept 2023"
   }
 ]
